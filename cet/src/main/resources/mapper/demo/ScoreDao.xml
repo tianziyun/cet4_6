@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.demo.dao.ScoreDao">
+
+    <resultMap type="io.renren.modules.demo.entity.ScoreEntity" id="scoreMap">
+        <result property="id" column="id"/>
+        <result property="examId" column="exam_id"/>
+        <result property="studentId" column="student_id"/>
+        <result property="mark" column="mark"/>
+        <result property="isPass" column="is_pass"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="io.renren.modules.demo.dao.EnrollEtailsDao">
+
+    <resultMap type="io.renren.modules.demo.entity.EnrollEtailsEntity" id="enrollEtailsMap">
+        <result property="id" column="id"/>
+        <result property="examId" column="exam_id"/>
+        <result property="studentId" column="student_id"/>
+        <result property="placeId" column="place_id"/>
+        <result property="enrollTime" column="enroll_time"/>
+        <result property="isPay" column="is_pay"/>
+        <result property="seat" column="seat"/>
+        <result property="ossId" column="oss_id"/>
+    </resultMap>
+
+
+</mapper>
