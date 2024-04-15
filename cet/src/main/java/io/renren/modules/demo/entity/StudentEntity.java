@@ -1,6 +1,7 @@
 package io.renren.modules.demo.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.util.Date;
@@ -91,4 +92,9 @@ public class StudentEntity {
      * 六级是否通过(0:不通过，1：通过）
      */
 	private Integer level6;
+
+    /**
+     * 学生照片(oss_id)
+     */
+    private Long photo;
 }

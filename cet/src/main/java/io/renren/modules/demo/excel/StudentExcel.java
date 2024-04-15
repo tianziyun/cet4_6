@@ -54,5 +54,6 @@ public class StudentExcel {
     private Integer level4;
     @ExcelProperty(value = "六级是否通过(0:不通过，1：通过）")
     private Integer level6;
-
+    @ExcelProperty("学生照片")
+    private Long photo;
 }
