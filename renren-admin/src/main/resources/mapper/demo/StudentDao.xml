@@ -21,8 +21,8 @@
         <result property="classes" column="classes"/>
         <result property="province" column="province"/>
         <result property="email" column="email"/>
-        <result property="level4" column="level_4"/>
-        <result property="level6" column="level_6"/>
+        <result property="level4" column="level4"/>
+        <result property="level6" column="level6"/>
         <result property="photo" column="photo"/>
     </resultMap>
 
