@@ -22,7 +22,6 @@
         <module>renren-admin</module>
         <module>renren-api</module>
         <module>renren-generator</module>
-        <module>cet4_6</module>
     </modules>
 
     <properties>
