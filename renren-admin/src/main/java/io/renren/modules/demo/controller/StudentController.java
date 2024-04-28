@@ -48,7 +48,7 @@ public class StudentController {
         @ApiImplicitParam(name = Constant.ORDER_FIELD, value = "排序字段", paramType = "query", dataType="String") ,
         @ApiImplicitParam(name = Constant.ORDER, value = "排序方式，可选值(asc、desc)", paramType = "query", dataType="String")
     })
-//    @RequiresPermissions("demo:student:page")
+    @RequiresPermissions("demo:student:page")
     public Result<PageData<StudentDTO>> page(@ApiIgnore @RequestParam Map<String, Object> params){
         PageData<StudentDTO> page = studentService.page(params);
 

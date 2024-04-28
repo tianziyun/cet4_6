@@ -73,6 +73,7 @@ public interface Constant {
      */
     String CLOUD_STORAGE_CONFIG_KEY = "CLOUD_STORAGE_CONFIG_KEY";
 
+
     /**
      * 定时任务状态
      */
@@ -112,8 +113,11 @@ public interface Constant {
         /**
          * 腾讯云
          */
-        QCLOUD(3);
-
+        QCLOUD(3),
+        /**
+         * MinIO
+         */
+  MINIO(6);
         private int value;
 
         CloudService(int value) {

@@ -1,18 +1,8 @@
-### 项目说明
-- renren-security是一个轻量级的，前后端分离的Java快速开发平台，能快速开发项目并交付【接私活利器】
-- 采用SpringBoot、Shiro、MyBatis-Plus、Vue3、TypeScript、Element Plus、Vue Router、Pinia、Axios、Vite框架，开发的一套权限系统，极低门槛，拿来即用。设计之初，就非常注重安全性，为企业系统保驾护航，让一切都变得如此简单。
-- 提供了代码生成器，只需编写30%左右代码，其余的代码交给系统自动生成，可快速完成开发任务
-- 支持MySQL、达梦、Oracle、SQL Server、PostgreSQL等主流数据库
-- 演示地址：http://demo.open.renren.io/renren-security （账号密码：admin/admin）
 
-<br>
 
-### 微信交流群
-我们提供了微信交流群，扫码下面的二维码，关注【人人开源】公众号，回复【加群】，即可根据提示加入微信群！
-<br><br>
-![输入图片说明](renren-admin/src/main/resources/public/wechat.jpg)
+- swagger文档路径：http://localhost:8080/renren-admin/doc.html
+- 账号密码：admin/admin
 
-<br>
 
 ### 具有如下特点
 - 友好的代码结构及注释，便于阅读及二次开发
@@ -94,35 +84,4 @@ renren-security
 - 达梦8
 <br>
 
-
-**本地部署**
-- 通过git下载源码
-- idea、eclipse需安装lombok插件，不然会提示找不到entity的get set方法
-- 创建数据库renren_security，数据库编码为UTF-8
-- 执行db/mysql.sql文件，初始化数据
-- 修改application-dev.yml文件，更新MySQL账号和密码
-- 在renren-security目录下，执行mvn clean install
-- Eclipse、IDEA运行AdminApplication.java，则可启动项目【renren-admin】
-- renren-admin访问路径：http://localhost:8080/renren-admin
-- swagger文档路径：http://localhost:8080/renren-admin/doc.html
-- 再启动前端项目，前端地址：https://gitee.com/renrenio/renren-ui
-- 账号密码：admin/admin
-<br>
-
-![输入图片说明](renren-admin/src/main/resources/public/1.png)
-
-<br>
-
-![输入图片说明](renren-admin/src/main/resources/public/2.png)
-
-<br>
-
-### 如何交流、反馈、参与贡献？
-- 开发文档：https://www.renren.io/guide/security
-- 官方社区：https://www.renren.io/community
-- Gitee仓库：https://gitee.com/renrenio/renren-security
-- [人人开源](https://www.renren.io)：https://www.renren.io
-- 如需关注项目最新动态，请Watch、Star项目，同时也是对项目最好的支持
-- 技术讨论、二次开发等咨询、问题和建议，请移步到官方社区，我会在第一时间进行解答和回复！
-<br>
 

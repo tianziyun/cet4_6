@@ -1,5 +1,6 @@
 package io.renren.modules.demo.dto;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -67,13 +68,17 @@ public class StudentDTO implements Serializable {
     @ApiModelProperty(value = "")
     private String email;
 
-//    @ApiModelProperty(value = "四级是否通过(0:不通过，1：通过）")
-//    private Integer level4;
-//
-//    @ApiModelProperty(value = "六级是否通过(0:不通过，1：通过）")
-//    private Integer level6;
+    @ApiModelProperty(value = "四级是否通过(0:不通过，1：通过）")
+    private Integer level4;
+
+    @ApiModelProperty(value = "六级是否通过(0:不通过，1：通过）")
+    private Integer level6;
 
     @ApiModelProperty(value = "学生照片(oss_id)")
     private Long photo;
+
+    @TableField(exist = false)
+    @ApiModelProperty(value = "学生照片地址")
+    private String photoUrl;
 
 }
