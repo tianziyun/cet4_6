@@ -21,6 +21,10 @@ public class ExamExcel {
     private Date enrollBeginTime;
     @ExcelProperty(value = "报名结束时间")
     private Date enrollEndTime;
+    @ExcelProperty(value = "考试开始时间")
+    private Date beginTime;
+    @ExcelProperty(value = "考试结束时间")
+    private Date endTime;
     @ExcelProperty(value = "费用")
     private Integer cost;
 

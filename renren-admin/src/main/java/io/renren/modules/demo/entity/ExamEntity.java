@@ -1,6 +1,7 @@
 package io.renren.modules.demo.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.util.Date;
@@ -31,6 +32,8 @@ public class ExamEntity {
      * 报名结束时间
      */
 	private Date enrollEndTime;
+    private Date beginTime;
+    private Date endTime;
     /**
      * 费用
      */

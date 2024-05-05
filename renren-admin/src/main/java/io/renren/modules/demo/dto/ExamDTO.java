@@ -33,6 +33,10 @@ public class ExamDTO implements Serializable {
 
 	@ApiModelProperty(value = "费用")
 	private Integer cost;
+	@ApiModelProperty(value = "考试开始时间")
+	private Date beginTime;
 
+	@ApiModelProperty(value = "考试结束时间")
+	private Date endTime;
 
 }

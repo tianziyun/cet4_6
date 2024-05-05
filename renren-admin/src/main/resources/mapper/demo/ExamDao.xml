@@ -8,6 +8,8 @@
         <result property="type" column="type"/>
         <result property="enrollBeginTime" column="enroll_begin_time"/>
         <result property="enrollEndTime" column="enroll_end_time"/>
+        <result property="beginTime" column="begin_time"/>
+        <result property="endTime" column="end_time"/>
         <result property="cost" column="cost"/>
     </resultMap>
 

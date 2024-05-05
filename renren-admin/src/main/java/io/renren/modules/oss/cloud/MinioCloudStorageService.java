@@ -11,8 +11,6 @@ package io.renren.modules.oss.cloud;
 import io.minio.*;
 import io.renren.common.exception.ErrorCode;
 import io.renren.common.exception.RenException;
-//import io.renren.commons.tools.exception.RenException;
-//import io.renren.exception.ModuleErrorCode;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
